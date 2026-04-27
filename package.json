@@ -1,0 +1,27 @@
+{
+  "name": "neomi-birthday-trip",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://yoavazu.github.io/Neomi-s-Birthday-Trip",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.6.0",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "gh-pages": "^6.3.0",
+    "vite": "^4.4.5"
+  }
+}
